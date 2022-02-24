@@ -18,3 +18,5 @@ while running:
       running = False # 게임이 진행중이 아님
 # pygame 종료
 pygame.quit()
+
+# github 업로드 완료
