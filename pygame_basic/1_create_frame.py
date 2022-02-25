@@ -16,6 +16,6 @@ while running:
   for event in pygame.event.get(): # pygame이 실행되기 위해 반드시 필요한 문장. 어떤 이벤트가 발생하였는가?
     if event.type == pygame.QUIT: # 창이 닫히는 이벤트가 발생하였는가?
       running = False # 게임이 진행중이 아님
-# pygame 종료
+# pygame를 종료
 pygame.quit()
 
