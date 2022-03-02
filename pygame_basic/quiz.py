@@ -9,13 +9,18 @@ screen_height = 640 # 세로 크기 설정
 screen = pygame.display.set_mode((screen_width, screen_height))
 
 # 화면 타이틀 설정
-pygame.display.set_caption("BH Game")
+pygame.display.set_caption("Quiz")
 
 # FPS
 clock = pygame.time.Clock(30)
 ###################################################################################################
 
 # 1: 사용자 게임 초기화 (배경 화면, 게임 이미지, 좌표, 속도, 폰트 등)
+# 배경 만들기
+background = pygame.image.load("C:/Users/mom/Desktop/Gameproject/pygame_basic/background.png")
+
+
+
 
 running = True 
 while running:
