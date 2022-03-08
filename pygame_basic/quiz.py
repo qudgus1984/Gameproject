@@ -19,6 +19,13 @@ clock = pygame.time.Clock(30)
 # 배경 만들기
 background = pygame.image.load("C:/Users/mom/Desktop/Gameproject/pygame_basic/background.png")
 
+# 캐릭터 만들기
+character = pygame.image.load("C:/Users/mom/Desktop/Gameproject/pygame_basic/character.png")
+character_size = character.get_rect().size
+character_width = character_size[0]
+character_height = character_size[1]
+character_x_pos = (screen_width / 2) - (character_width / 2)
+character_y_pos = screen_height - character_height
 
 
 
@@ -36,6 +43,8 @@ while running:
   # 4. 충돌 처리
   
   # 5. 화면에 그리기
+  screen.blit(background(0, 0))
+  screen.blit(character, (character_x_pos, character_y_pos))
 
   pygame.display.update()
 
