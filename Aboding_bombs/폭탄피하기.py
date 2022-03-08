@@ -128,3 +128,5 @@ while running:
   pygame.display.update()
 
 pygame.quit()
+
+# 잘 push 되는지 확인해보자
