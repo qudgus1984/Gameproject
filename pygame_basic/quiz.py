@@ -12,15 +12,15 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Quiz")
 
 # FPS
-clock = pygame.time.Clock(30)
+clock = pygame.time.Clock(60)
 ###################################################################################################
 
 # 1: 사용자 게임 초기화 (배경 화면, 게임 이미지, 좌표, 속도, 폰트 등)
 # 배경 만들기
-background = pygame.image.load("C:/Users/mom/Desktop/Gameproject/pygame_basic/background.png")
+background = pygame.image.load("/Users/ibyeonghyeon/Desktop/gameproject/Gameproject/pygame_basic/background.png")
 
 # 캐릭터 만들기
-character = pygame.image.load("C:/Users/mom/Desktop/Gameproject/pygame_basic/character.png")
+character = pygame.image.load("/Users/ibyeonghyeon/Desktop/gameproject/Gameproject/pygame_basic/character.png")
 character_size = character.get_rect().size
 character_width = character_size[0]
 character_height = character_size[1]
